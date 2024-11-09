@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додати нову страву</title>
+</head>
+<body>
+    <h1>Додати нову страву</h1>
+    <form method="POST">
+        <label for="name">Назва:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="description">Опис:</label><br>
+        <textarea id="description" name="description"></textarea><br>
+        
+        <label for="price">Ціна:</label><br>
+        <input type="number" step="0.01" id="price" name="price"><br>
+        
+        <button type="submit">Додати страву</button>
+    </form>
+
+    <br>
+    <a href="/">Повернутися до меню</a>
+</body>
+</html>
